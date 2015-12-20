@@ -1,0 +1,135 @@
+echo "1KB File Transfer \n" >> stats.txt
+
+echo "128 blockSize" >> stats.txt
+dd if=K of=K2 bs=128 2>> stats.txt
+echo "" >> stats.txt
+./copy K K1 128 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n256 blockSize" >> stats.txt
+ dd if=K of=K2 bs=256 2>> stats.txt
+echo "" >> stats.txt
+./copy K K1 256 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n512 blockSize" >> stats.txt
+ dd if=K of=K2 bs=512 2>> stats.txt
+echo "" >> stats.txt
+./copy K K1 512 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n1024 blockSize" >> stats.txt
+ dd if=K of=K2 bs=1024 2>> stats.txt
+echo "" >> stats.txt
+./copy K K1 1024 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n2048 blockSize" >> stats.txt
+ dd if=K of=K2 bs=2048 2>> stats.txt
+echo "" >> stats.txt
+./copy K K1 2048 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n4096 blockSize" >> stats.txt
+ dd if=K of=K2 bs=4096 2>> stats.txt
+echo "" >> stats.txt
+./copy K K1 4096 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n8192 blockSize" >> stats.txt
+ dd if=K of=K2 bs=8192 2>> stats.txt
+echo "" >> stats.txt
+./copy K K1 8192 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+echo "----------------------------------------------\n\n" >> stats.txt
+
+echo "1MB File Transfer \n" >> stats.txt
+
+echo "128 blockSize" >> stats.txt
+dd if=M of=M2 bs=128 2>> stats.txt
+echo "" >> stats.txt
+./copy M M1 128 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n256 blockSize" >> stats.txt
+ dd if=M of=M2 bs=256 2>> stats.txt
+echo "" >> stats.txt
+./copy M M1 256 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n512 blockSize" >> stats.txt
+ dd if=M of=M2 bs=512 2>> stats.txt
+echo "" >> stats.txt
+./copy M M1 512 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n1024 blockSize" >> stats.txt
+ dd if=M of=M2 bs=1024 2>> stats.txt
+echo "" >> stats.txt
+./copy M M1 1024 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n2048 blockSize" >> stats.txt
+ dd if=M of=M2 bs=2048 2>> stats.txt
+echo "" >> stats.txt
+./copy M M1 2048 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n4096 blockSize" >> stats.txt
+ dd if=M of=M2 bs=4096 2>> stats.txt
+echo "" >> stats.txt
+./copy M M1 4096 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n8192 blockSize" >> stats.txt
+ dd if=M of=M2 bs=8192 2>> stats.txt
+echo "" >> stats.txt
+./copy M M1 8192 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+echo "----------------------------------------------\n\n" >> stats.txt
+
+
+echo "1GB File Transfer \n" >> stats.txt
+
+echo "128 blockSize" >> stats.txt
+dd if=G of=G2 bs=128 2>> stats.txt
+echo "" >> stats.txt
+./copy G G1 128 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n256 blockSize" >> stats.txt
+ dd if=G of=G2 bs=256 2>> stats.txt
+echo "" >> stats.txt
+./copy G G1 256 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n512 blockSize" >> stats.txt
+ dd if=G of=G2 bs=512 2>> stats.txt
+echo "" >> stats.txt
+./copy G G1 512 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n1024 blockSize" >> stats.txt
+ dd if=G of=G2 bs=1024 2>> stats.txt
+echo "" >> stats.txt
+./copy G G1 1024 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n2048 blockSize" >> stats.txt
+ dd if=G of=G2 bs=2048 2>> stats.txt
+echo "" >> stats.txt
+./copy G G1 2048 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n4096 blockSize" >> stats.txt
+ dd if=G of=G2 bs=4096 2>> stats.txt
+echo "" >> stats.txt
+./copy G G1 4096 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+
+echo "\n8192 blockSize" >> stats.txt
+ dd if=G of=G2 bs=8192 2>> stats.txt
+echo "" >> stats.txt
+./copy G G1 8192 >> stats.txt
+echo "----------------------------------------------" >> stats.txt
+echo "----------------------------------------------\n\n" >> stats.txt

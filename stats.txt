@@ -1,0 +1,180 @@
+1KB File Transfer 
+
+128 blockSize
+0+1 records in
+0+1 records out
+5 bytes (5 B) copied, 0.000221221 s, 22.6 kB/s
+
+Time Spent: 0.000202000 
+----------------------------------------------
+
+256 blockSize
+0+1 records in
+0+1 records out
+5 bytes (5 B) copied, 0.000287422 s, 17.4 kB/s
+
+Time Spent: 0.000122000 
+----------------------------------------------
+
+512 blockSize
+0+1 records in
+0+1 records out
+5 bytes (5 B) copied, 0.000222176 s, 22.5 kB/s
+
+Time Spent: 0.000118000 
+----------------------------------------------
+
+1024 blockSize
+0+1 records in
+0+1 records out
+5 bytes (5 B) copied, 0.000221075 s, 22.6 kB/s
+
+Time Spent: 0.000079000 
+----------------------------------------------
+
+2048 blockSize
+0+1 records in
+0+1 records out
+5 bytes (5 B) copied, 0.000191515 s, 26.1 kB/s
+
+Time Spent: 0.000089000 
+----------------------------------------------
+
+4096 blockSize
+0+1 records in
+0+1 records out
+5 bytes (5 B) copied, 0.000135919 s, 36.8 kB/s
+
+Time Spent: 0.000107000 
+----------------------------------------------
+
+8192 blockSize
+0+1 records in
+0+1 records out
+5 bytes (5 B) copied, 0.000124317 s, 40.2 kB/s
+
+Time Spent: 0.000146000 
+----------------------------------------------
+----------------------------------------------
+
+
+1MB File Transfer 
+
+128 blockSize
+8192+0 records in
+8192+0 records out
+1048576 bytes (1.0 MB) copied, 0.0203218 s, 51.6 MB/s
+
+Time Spent: 0.024657000 
+----------------------------------------------
+
+256 blockSize
+4096+0 records in
+4096+0 records out
+1048576 bytes (1.0 MB) copied, 0.0102788 s, 102 MB/s
+
+Time Spent: 0.013150000 
+----------------------------------------------
+
+512 blockSize
+2048+0 records in
+2048+0 records out
+1048576 bytes (1.0 MB) copied, 0.00546058 s, 192 MB/s
+
+Time Spent: 0.009544000 
+----------------------------------------------
+
+1024 blockSize
+1024+0 records in
+1024+0 records out
+1048576 bytes (1.0 MB) copied, 0.00310152 s, 338 MB/s
+
+Time Spent: 0.007714000 
+----------------------------------------------
+
+2048 blockSize
+512+0 records in
+512+0 records out
+1048576 bytes (1.0 MB) copied, 0.00191794 s, 547 MB/s
+
+Time Spent: 0.006879000 
+----------------------------------------------
+
+4096 blockSize
+256+0 records in
+256+0 records out
+1048576 bytes (1.0 MB) copied, 0.0013336 s, 786 MB/s
+
+Time Spent: 0.006419000 
+----------------------------------------------
+
+8192 blockSize
+128+0 records in
+128+0 records out
+1048576 bytes (1.0 MB) copied, 0.001189 s, 882 MB/s
+
+Time Spent: 0.006386000 
+----------------------------------------------
+----------------------------------------------
+
+
+1GB File Transfer 
+
+128 blockSize
+8388608+0 records in
+8388608+0 records out
+1073741824 bytes (1.1 GB) copied, 19.905 s, 53.9 MB/s
+
+Time Spent: 25.668872833 
+----------------------------------------------
+
+256 blockSize
+4194304+0 records in
+4194304+0 records out
+1073741824 bytes (1.1 GB) copied, 10.6833 s, 101 MB/s
+
+Time Spent: 13.562561989 
+----------------------------------------------
+
+512 blockSize
+2097152+0 records in
+2097152+0 records out
+1073741824 bytes (1.1 GB) copied, 6.1143 s, 176 MB/s
+
+Time Spent: 9.756665230 
+----------------------------------------------
+
+1024 blockSize
+1048576+0 records in
+1048576+0 records out
+1073741824 bytes (1.1 GB) copied, 3.04583 s, 353 MB/s
+
+Time Spent: 7.918552876 
+----------------------------------------------
+
+2048 blockSize
+524288+0 records in
+524288+0 records out
+1073741824 bytes (1.1 GB) copied, 1.90533 s, 564 MB/s
+
+Time Spent: 7.014998913 
+----------------------------------------------
+
+4096 blockSize
+262144+0 records in
+262144+0 records out
+1073741824 bytes (1.1 GB) copied, 1.88334 s, 570 MB/s
+
+Time Spent: 6.767663956 
+----------------------------------------------
+
+8192 blockSize
+131072+0 records in
+131072+0 records out
+1073741824 bytes (1.1 GB) copied, 4.33455 s, 248 MB/s
+
+Time Spent: 6.477098942 
+----------------------------------------------
+----------------------------------------------
+
+
